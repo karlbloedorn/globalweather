@@ -1,0 +1,32 @@
+#mainContainer{
+    margin-top: 1em;
+    min-height: 100vh;
+}
+html,body{
+  background-color: #555;
+  color: white;
+}
+.ui.menu {
+    opacity: 1;
+    z-index: 999;
+}
+
+.eventPopup .leaflet-popup-content{
+  margin: 5px;
+}
+.eventPopup .leaflet-popup-content-wrapper {
+  background:  #f1f1f1;
+  color: #1b1b1b;
+}
+.eventPopup .leaflet-popup-close-button{
+ display: none;
+}
+.eventPopup .leaflet-popup-content-wrapper {
+  border-radius : 0px;
+}
+.eventPopup.leaflet-popup-tip-container {
+  display: none;
+}
+.eventPopup .leaflet-popup-tip {
+  background:  #f1f1f1;
+}
